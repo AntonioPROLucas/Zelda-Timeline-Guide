@@ -1,154 +1,192 @@
-const primeirosJogosZelda = [
+const database = [
     {
+      capa: "zeldassw_capa.jpg",
       title: "The Legend of Zelda: Skyward Sword",
       lancamento: 2011,
-      cronologia: 1,
+      cronologia: 'Ordem cronológica: 1° jogo',
       timeline: "Pré-Ramificação",
       sinopse: "Link e Zelda vivem em uma ilha flutuante chamada Skyloft. Uma catástrofe os leva a Hyrule, onde Link deve salvar Zelda e o mundo.",
-      link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Skyward_Sword"
+      link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Skyward_Sword",
+      tags: "2011 wii motion plus mote plus the legend of zelda skyward sword hd ghirahim master sword impa primeiro zelda cronologico skies demise fi triforce",
     },
     {
+      capa: "zelda-minish_capa.jpg",
       title: "The Legend of Zelda: The Minish Cap",
       lancamento: 2004,
-      cronologia: 2,
+      cronologia: 'Ordem cronológica: 2° jogo, Pós Skyward Sword',
       timeline: "Pré-Ramificação",
       sinopse: "Após Zelda ser transformada em pedra por Vaati, Link encolhe para o tamanho de um Minish para salvar Hyrule e Zelda do feiticeiro maligno.",
-      link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Minish_Cap"
+      link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Minish_Cap",
+      tags: "2004 vaati minish four sword game boy gameboy adavance pre ramificaçao kinstone picori the legend of zelda the minish cap the legend of zelda minish cap",
     },
     {
+      capa: "zelda4s_capa.jpg",
       title: "The Legend of Zelda: Four Swords",
       lancamento: 2002,
-      cronologia: 3,
+      cronologia: '3° jogo, Pós Skyward Sword e Minish Cap',
       timeline: "Pré-Ramificação",
       sinopse: "Link se divide em quatro Links separados para derrotar o maligno Vaati novamente, em uma aventura multiplayer.",
-      link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Minish_Cap"
+      link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Four_Swords",
+      tags:"2002 game boy gameboy advance online the legend of zelda four swords"
     },
     {
+      capa: "zeldaoot_capa.png",
       title: "The Legend of Zelda: Ocarina of Time",
       lancamento: 1998,
-      cronologia: 4,
+      cronologia: 'Ordem cronológica: 4° jogo, pós Skyward Sword, Minish Cap e Four Swords',
       timeline: "Ramificação",
       sinopse: "Link viaja no tempo com uma Ocarina do Tempo, impedindo Ganondorf de dominar Hyrule. Seus atos criam duas linhas temporais distintas.",
-      link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
+      link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Ocarina_of_Time",
+      tags: "1998 nintendo 64 N64 nintendo3ds nintendo 3ds n3ds shadow hero of time heroi do tempo link saria darunia malon best zelda melhor jogo que dividiu as timelines viajem no tempo navi master sword 6 sabios seis sabios triforce din nayru farore the legend of zelda ocarina of time the legend of zelda 64 the legend of zelda oot",
     },
     {
+      capa: "zeldamm_capa.jpg.crdownload",
       title: "The Legend of Zelda: Majora's Mask",
       lancamento: 2000,
-      cronologia: 5,
+      cronologia: 'Ordem cronológica: 5° jogo, pós Skyward Sword, Minish Cap, Four Swords e Ocarina of Time',
       timeline: "Linha do Tempo da Criança",
-      sinopse: "Em busca de uma antiga companheira, Link cai no mundo de Termina, onde deve impedir a queda da lua e salvar seus habitantes.",
-      link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Majora%27s_Mask"
+      sinopse: "Em busca de uma antiga companheira, Link cai no mundo de Termina, onde deve impedir a queda da lua pelas mãos de Skullkid e salvar seus habitantes.",
+      link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Majora%27s_Mask",
+      tags: "2000 Nintendo 64 N64 nintendo3ds nintendo 3ds n3ds hero of time heroi do tempo dark sombrio song of healing skull kid kafei anju kaffey kafey kaffei sidequests observatory 3 days 3 dias tatl tael the legend of zelda majoras mask the legend of zelda the majoras mask the legend of zelda 64"
     },
     {
+        capa: "zelda-tp_capa.jpg",
         title: "The Legend: of Zelda: Twilight Princess",
         lancamento: 2006,
-        cronologia: 6,
+        cronologia: 'Ordem cronológica: 6° jogo, pós Skyward Sword, Minish Cap, Four Swords, Ocarina of Time e Majoras Mask',
         timeline: "Linha do Tempo da Criança",
         sinopse: "Hyrule é tomada pelo crepusculo, e Link se transforma em um lobo! Tendo que salvar tanto Hyrule quanto o reino do crepusculo.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Twilight_Princess"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Twilight_Princess",
+        tags: "2006 Nintendo Gamecube Nintendo Wii nintendo wii u nintendo wiiu Zant Midna Fused shadow twilight realm the legend of zelda twilight hd princess hero shade link wolf link link lobo espelho do crepusculo",
       },
       {
+        capa: "zelda-4sa_capa.jpg",
         title: "The Legend of Zelda: Four Swords Adventures",
         lancamento: 2004,
-        cronologia: 7,
+        cronologia: 'Ordem cronológica: 7° jogo, pós Skyward Sword, Minish Cap, Four Swords, Ocarina of Time, Majoras Mask e Twilight Princess',
         timeline: "Linha do Tempo da Criança",
         sinopse: "Uma aventura multiplayer onde Link e seus três clones devem derrotar o mal em uma variedade de desafios.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Four_Swords_Adventures"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Four_Swords_Adventures",
+        tags: "2004 Nintendo Gamecube multiplayer ganondorf vaati the legend of zelda four swords adventures",
       },
       {
+        capa: "zelda-ww_capa.jpg",
         title: "The Legend of Zelda: Wind Waker",
         lancamento: 2002,
-        cronologia: 5,
+        cronologia: 'Ordem cronológica: 5° jogo, pós Skyward Sword, Minish Cap, Four Swords e Ocarina of Time',
         timeline: "Linha do Tempo do Adulto",
         sinopse: "Hyrule está inundada, e Link embarca em uma aventura para derrotar Ganondorf e salvar o mundo.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Wind_Waker"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Wind_Waker",
+        tags: "2002 Nintendo Gamecube nintendo wii u nintendo wiiu pirate toon link master sword triforce tetra the legend of zelda wind waker hd",
       },
       {
+        capa:"zelda-ph_capa.jpg",
         title: "The Legend of Zelda: Phantom Hourglass",
         lancamento: 2007,
-        cronologia: 6,
+        cronologia: 'Ordem cronológica: 6° jogo, pós Skyward Sword, Minish Cap, Four Swords, Ocarina of Time e Wind Waker',
         timeline: "Linha do Tempo do Adulto",
         sinopse: "Link explora os mares de Hyrule em uma aventura DS, enfrentando um pirata fantasma.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Phantom_Hourglass"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Phantom_Hourglass",
+        tags: "2007 nds nintendo ds nova hyrule linebeck toon link tetra the legend od zelda phantom hourglass",
       },
       {
+        capa:"zelda-st_capa.jpg",
         title: "The Legend of Zelda: Spirit Tracks",
         lancamento: 2009,
-        cronologia: 7,
+        cronologia: 'Ordem cronológica: 7° jogo, pós Skyward Sword, Minish Cap, Four Swords, Ocarina of Time, Wind Waker e Phantom Hourglass',
         timeline: "Linha do Tempo do Adulto",
         sinopse: "Link e Zelda viajam por Nova Hyrule em um trem, lutando contra um espírito maligno.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Spirit_Tracks"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Spirit_Tracks",
+        tags: "2009 nds nintendo ds nova hyrule toon link the legend of zelda spirit tracks trem",
       },
       {
+        capa:"zelda-alttp_capa.jpg",
         title: "The Legend of Zelda: A Link to the Past",
         lancamento: 1991,
-        cronologia: 5,
+        cronologia: 'Ordem cronológica: 5° jogo, pós Skyward Sword, Minish Cap, Four Swords e Ocarina of Time',
         timeline: "Linha do Tempo do Herói Caído",
         sinopse: "Link viaja entre o mundo da luz e o mundo das trevas para derrotar Ganon, salvar as seis donzelas e a Princesa Zelda.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past",
+        tags: "1991 Dark world six maidens seis donzelas master sword pink hair link de cabelo rosa link com cabelo rosa agahnim the legend of zelda a link to the past the legend of zelda link to the past snes super nintendo game boy advance gameboy advance triforce of gods triforce of the gods"
       },
       {
+        capa:"zelda-ooa_oos.jpg",
         title: "The Legend of Zelda: Oracle of Ages/Seasons",
         lancamento: 2001,
-        cronologia: 6/7,
+        cronologia: '6/7° jogo, pós Skyward Sword, Minish Cap, Four Swords, Ocarina of Time e A Link to the Past',
         timeline: "Linha do Tempo do Herói Caído",
         sinopse: "Dois jogos interconectados onde Link viaja entre o passado e o futuro para salvar Holodrum e Labrynna.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Oracle_of_Seasons" // Link para Oracle of Seasons
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Oracle_of_Seasons", // Link para Oracle of Seasons
+        tags: "2001 viajem no tempo controle do clima game boy collor gameboy collor the legend of zelda oracle of ages the legend of zelda oracle of seasons"
       },
       {
+        capa:"zelda-la_capa.jpg",
         title: "The Legend of Zelda: Link's Awakening",
         lancamento: 1993,
-        cronologia: 8,
+        cronologia: 'Ordem cronológica: 8° jogo, pós Skyward Sword, Minish Cap, Four Swords, Ocarina of Time, A Link to the Past e Oracle of Ages/Seasons',
         timeline: "Linha do Tempo do Herói Caído",
         sinopse: "Link acorda em uma ilha misteriosa e deve encontrar o Ovo do Peixe do Vento para escapar.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Links_Awekening"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Links_Awekening",
+        tags: "1993 gameboy the legend of zelda links awakening remake nintendo switch nintendo gameboy game boy collor gameboy collor"
       },
       {
+        capa:"zelda-albw_capa.jpg",
         title: "The Legend of Zelda: A Link Between Worlds",
         lancamento: 2013,
-        cronologia: 9,
+        cronologia: 'Ordem cronológica: 9° jogo, pós Skyward Sword, Minish Cap, Four Swords, Ocarina of Time, A Link to the Past, Oracle of Ages/Seasons e Links Awekening',
         timeline: "Linha do Tempo do Herói Caído",
         sinopse: "Link adquire a habilidade de se transformar em uma pintura para explorar Hyrule e derrotar Ganon.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:A_Link_Between_Worlds"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:A_Link_Between_Worlds",
+        tags: "2013 nintendo 3ds nintendo3ds n3ds dark world hilda triforce of gods 2 triforce of the gods 2 master sword",
       },
       {
+        capa:"zelda1.jpg",
         title: "The Legend of Zelda",
         lancamento: 1986,
-        cronologia: 10,
+        cronologia: 'Ordem cronológica: 10° jogo, pós Skyward Sword, Minish Cap, Four Swords, Ocarina of Time, A Link to the Past, Oracle of Ages/Seasons, Links Awekening e A Link Between Worlds',
         timeline: "Linha do Tempo do Herói Caído",
         sinopse: "O primeiro jogo da série, onde Link embarca em uma jornada para resgatar a Princesa Zelda e coletar as partes da Triforce que Zelda repartiu para derrotar Ganon.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda",
+        tags: "1986 nes nintendo nintendinho triforce"
       },
       {
+        capa:"zelda2.jpg.crdownload",
         title: "Zelda II: The Adventure of Link",
         lancamento: 1987,
-        cronologia: 11,
+        cronologia: '11° jogo, pós Skyward Sword, Minish Cap, Four Swords, Ocarina of Time, A Link to the Past, Oracle of Ages/Seasons, Links Awekening, A Link Between Worlds e The Legend of Zelda',
         timeline: "Linha do Tempo do Herói Caído",
         sinopse: "Uma continuação do primeiro jogo, com uma jogabilidade mais focada em ação e RPG. Link deve recuperar a triforce da coragem que o rei escondeu, e usa-la para libertar a Princesa Zelda da maldição lançada por seu irmão!",
-        link: "https://zelda.fandom.com/wiki/Zelda_II:_The_Adventure_of_Link"
+        link: "https://zelda.fandom.com/wiki/Zelda_II:_The_Adventure_of_Link",
+        tags: "1987 nes nintendo nintendinho shadow link triforce",
       },
       {
+        capa:"botw-capa.jpg",
         title: "The Legend of Zelda: Breath of the Wild",
         lancamento: 2017,
-        cronologia: 17,
-        timeline: "Calamidade",
+        cronologia: 'Ordem cronológica: 17° jogo, Após todos os jogos principais que laçaram antes dele',
+        timeline: "Calamidade (as linhas do tempo se unem)",
         sinopse: "Link acorda de um sono de um século para salvar Hyrule do mal de Ganon.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild",
+        tags: "2017 nintendo switch nintendo wii u nintendo wiiu exploration calamity ganon divine beasts master sword",
       },
       {
+        capa:"totk-capa.jpg",
         title: "The Legend of Zelda: Tears of the Kingdom",
         lancamento: 2023,
-        cronologia: 18,
+        cronologia: 'Ordem cronológica: 18° jogo, pós Breath of the Wild',
         timeline: "Pós Calamidade",
         sinopse: "Link embarca em uma nova aventura para salvar Hyrule, agora fragmentado em ilhas flutuantes. Com novas habilidades, como a capacidade de fundir objetos, ele explora um mundo rico e cheio de mistérios, enfrentando inimigos e desvendando os segredos por trás da catástrofe que assola o reino.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom",
+        tags: "2023 nintendo switch master sword"
       },
       {
+        capa:"zelda-eow_capa.jpg",
         title: "The Legend of Zelda: Echoes of Wisdom",
         lancamento: 2024,
         cronologia: "...",
         timeline: "...",
         sinopse: "Após salvar Zelda, Link é levado por uma fenda que assola agora Hyrule! Com o poder de replicar coisas, cabe a Zelda salvar Link e seu reino.",
-        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Echoes_of_Wisdom"
+        link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Echoes_of_Wisdom",
+        tags: "2024 nintendo switch legendado"
       }
     ];

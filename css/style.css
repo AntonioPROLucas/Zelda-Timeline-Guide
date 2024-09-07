@@ -82,7 +82,7 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
+    min-width:60rem; /* Largura máxima da caixa de resultados */
     height: 45vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
@@ -96,12 +96,10 @@ section button:hover {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
-}
-
-/* Estiliza os títulos dentro dos itens de resultado */
-.item-resultado h2 {
-    font-size: 1.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
@@ -113,6 +111,12 @@ section button:hover {
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.capa {
+    width: 230px;
+    height: 100%;
+    margin-right: 30px;
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
@@ -128,8 +132,9 @@ footer {
     color: #ffffff; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
+    height: 90px;
     width: 100%; /* Largura total da página */
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
-    font-size: 1rem; /* Tamanho da fonte */
+    font-size: 0.8rem; /* Tamanho da fonte */
 }
