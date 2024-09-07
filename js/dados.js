@@ -57,7 +57,7 @@ const database = [
         timeline: "Linha do Tempo da Criança",
         sinopse: "Hyrule é tomada pelo crepusculo, e Link se transforma em um lobo! Tendo que salvar tanto Hyrule quanto o reino do crepusculo.",
         link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Twilight_Princess",
-        tags: "2006 Nintendo Gamecube Nintendo Wii nintendo wii u nintendo wiiu Zant Midna Fused shadow twilight realm the legend of zelda twilight hd princess hero shade link wolf link link lobo espelho do crepusculo",
+        tags: "2006 Nintendo Gamecube Nintendo Wii nintendo wii u nintendo wiiu Zant Midna Fused shadow twilight realm the legend of zelda twilight hd princess hero shade link wolf link link lobo espelho do crepusculo ganondorf",
       },
       {
         capa: "zelda-4sa_capa.jpg",
@@ -177,7 +177,7 @@ const database = [
         timeline: "Pós Calamidade",
         sinopse: "Link embarca em uma nova aventura para salvar Hyrule, agora fragmentado em ilhas flutuantes. Com novas habilidades, como a capacidade de fundir objetos, ele explora um mundo rico e cheio de mistérios, enfrentando inimigos e desvendando os segredos por trás da catástrofe que assola o reino.",
         link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom",
-        tags: "2023 nintendo switch master sword"
+        tags: "2023 nintendo switch master sword ganondorf triforce"
       },
       {
         capa:"zelda-eow_capa.jpg",
