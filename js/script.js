@@ -1,4 +1,5 @@
 function pesquisar(){
+    // Obtém o valor digitado no campo de pesquisa
     let section = document.getElementById("resultados-pesquisa");
     let resultado = "";
     let campoPesquisa =document.getElementById("campo-pesquisa").value;
@@ -8,6 +9,8 @@ function pesquisar(){
     let sinopse = '';
     let tags = '';
     campoPesquisa = campoPesquisa.toLowerCase()
+
+    // Itera sobre os dados e verifica se a pesquisa corresponde a algum item
     for (let data of database){
         title = data.title.toLowerCase();
         timeline = data.timeline.toLowerCase();
@@ -30,6 +33,7 @@ function pesquisar(){
         }   
     }
 
+    // Se não encontrar resultados, exibe uma mensagem
     if (!resultado){
         resultado = `<div class="item-resultado">
                         <h2>Ooops... Não foi encontrado um resultado para "${document.getElementById("campo-pesquisa").value}"!!</h2>
@@ -37,6 +41,7 @@ function pesquisar(){
                         
     }
     
+    // Atualiza a seção de resultados com os elementos HTML gerados
     section.innerHTML = resultado
 }
 
