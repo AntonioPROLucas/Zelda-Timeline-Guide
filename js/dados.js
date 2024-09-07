@@ -147,7 +147,7 @@ const database = [
         timeline: "Linha do Tempo do Herói Caído",
         sinopse: "O primeiro jogo da série, onde Link embarca em uma jornada para resgatar a Princesa Zelda e coletar as partes da Triforce que Zelda repartiu para derrotar Ganon.",
         link: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda",
-        tags: "1986 nes nintendo nintendinho triforce"
+        tags: "1986 nes nintendo nintendinho triforce ganondorf"
       },
       {
         capa:"zelda2.jpg.crdownload",
