@@ -40,7 +40,7 @@ const database = [
       tags: "1998 nintendo 64 N64 nintendo3ds nintendo 3ds n3ds shadow hero of time heroi do tempo link saria darunia malon best zelda melhor jogo que dividiu as timelines viajem no tempo navi master sword 6 sabios seis sabios triforce din nayru farore the legend of zelda ocarina of time the legend of zelda 64 the legend of zelda oot",
     },
     {
-      capa: "zeldamm_capa.jpg.crdownload",
+      capa: "zeldamm_capa.jpg",
       title: "The Legend of Zelda: Majora's Mask",
       lancamento: 2000,
       cronologia: 'Ordem cronológica: 5° jogo, pós Skyward Sword, Minish Cap, Four Swords e Ocarina of Time',
@@ -150,7 +150,7 @@ const database = [
         tags: "1986 nes nintendo nintendinho triforce ganondorf"
       },
       {
-        capa:"zelda2.jpg.crdownload",
+        capa:"zelda2.jpg",
         title: "Zelda II: The Adventure of Link",
         lancamento: 1987,
         cronologia: '11° jogo, pós Skyward Sword, Minish Cap, Four Swords, Ocarina of Time, A Link to the Past, Oracle of Ages/Seasons, Links Awekening, A Link Between Worlds e The Legend of Zelda',

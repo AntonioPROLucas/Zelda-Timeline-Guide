@@ -66,17 +66,27 @@ section .pesquisar {
     border-radius: 1.5rem; /* Borda arredondada */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    
 }
 
 section .pesquisar .icon {
-    height: 60px;
-    width: 35px;
+    height: 40px;
+    width: 25px;
     display: flex;
+}
+
+section .linhas {
+    color: #ffe658;
+    background-color: #039d24; 
+    padding: 0.4rem 0.6rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-top: 8px;
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #ffffff; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #807c7c; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
